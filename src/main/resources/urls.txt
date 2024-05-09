@@ -1,0 +1,24 @@
+1.	API to List Active Products:
+http://localhost:8081/api/products
+
+2.	API to Search Products:
+http://localhost:8081/api/products/search?name=AC&minPrice=100&maxPrice=500&minDate=2020-04-05&maxDate=2024-05-05
+http://localhost:8081/api/products/search?name=AC&minPrice=100&maxPrice=500
+
+3.	API to Create a Product:
+http://localhost:8081/api/products
+
+4.	API to Update a Product:
+http://localhost:8081/api/products/10001
+
+5.	API to Delete a Product:
+http://localhost:8081/api/products/1
+
+6.	API to Get Products in Approval Queue:
+http://localhost:8081/api/products/approval-queue
+
+7.	API to Approve a Product:
+http://localhost:8081/api/products/approval-queue/1/approve
+
+8.	API to Reject a Product:
+http://localhost:8081/api/products/approval-queue/2/reject
